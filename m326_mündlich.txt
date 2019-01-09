@@ -1,0 +1,18 @@
+Don’t repeat yourself
+DRY (G5)	Keinen duplizierten / redundanten Code schreiben (z.B.  mit Copy / Paste). Redundanter Code soll in separate Methoden oder Klassen ausgelagert werden.
+
+You ain’t gona need it
+YAGNI
+	Kein Code auf Vorrat! Man soll nur Code schreiben, der wirklich gebraucht wird, um die aktuellen Anforderungen zu erfüllen. Code, welcher im Hinblick auf mögliche Erweiterungen geschrieben wird, erweist sich später oft als ungeeignet, da entweder die Anforderungen geändert haben oder man das Problem mittlerweile besser versteht und anders löst.
+ 
+static Attribute und Operationen nur wenn wirklich angemessen
+(G18)	Zur Laufzeit eines Programms stehen die Objekte im Zentrum, Jedes Objekt hat seine eigenen Daten. static Methoden können nicht auf diese Daten zugreifen. static Methoden können auch nicht überschrieben werden und verhindern so Polymorphismus.
+
+Keine miss-verständlichen Namen
+(N4)
+	Namen sollen präzis sein. Wo anzahlBomben drauf steht soll Anzahl Bomben drin sein.
+
+Keine Codierung in Namen
+(N6)
+	Namen sollen nicht codiert werden (z.B. mittels Pre- oder Postfixen für Typen, etc.)
+
